@@ -2,7 +2,13 @@
 <head>
     <title>i18n test</title>
 
-    <script src="i18n.js"></script>
+    <script type="text/javascript" src="../lib/i18n.js"></script>
+    <script type="text/javascript">
+    	var run = function() {
+    		i18n.init();
+    		i18n.translate_document();
+    	}
+    </script>
 </head>
 <body onload="run()">
 <h1>Bla bla</h1>
