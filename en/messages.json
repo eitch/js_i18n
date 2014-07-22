@@ -1,0 +1,5 @@
+{
+    "app.name" : "My App",
+    "app.title" : "My title",
+    "myElement.i18n": "Lorem ipsum"
+}
